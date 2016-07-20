@@ -15,3 +15,23 @@
 // 10  20  30  40  50  60  70  80  90 100 110 120
 // 11  22  33  44  55  66  77  88  99 110 121 132
 // 12  24  36  48  60  72  84  96 108 120 132 144
+
+
+var number = 12;
+var result = [];
+
+function multiplicationTable(num) {
+  for(var i = 1; i <= number; i++) {
+    var temparray = [];
+    result.push(temparray);
+    for (var k = 1; k <= number; k++) {
+      var temp = k * i;
+      temparray.push(temp);
+    };
+  };
+}
+
+multiplicationTable(number);
+
+console.log("array", result);
+
