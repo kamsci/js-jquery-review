@@ -1,8 +1,20 @@
 $(function(){
 
+  $('#doIt').click(function(event) {
+
+    var who = $('#whoDo').val()
+    var what = $('#whatDo').val()
+
+    var value = $('.ball').text()
+
+    //   alert ("clicked");
+    // }
+  console.log("v:", value)
+  console.log("who:", who)
+  console.log("what:", what)
 
 
-
+  });
     console.log('The dom is ready! (drill 4)');
 
     //shuffle shapes on first load
